@@ -13,3 +13,12 @@ go
 sp_configure 'clr enabled'
 go
 
+
+
+To deploy one of the sql project(s), just right-click the project and select "Publish..."
+Set the target database connection by clicking on the "Edit..." button.
+Set your connection (and authentication) to the sql server and database where you will want this dll deployed.
+Then publish.
+
+
+
