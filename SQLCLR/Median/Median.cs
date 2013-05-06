@@ -17,7 +17,7 @@ using System.Collections.Generic;
 [Microsoft.SqlServer.Server.SqlUserDefinedAggregate(
     Format.UserDefined,
     IsInvariantToDuplicates = false,
-    IsInvariantToNulls = false,
+    IsInvariantToNulls = true,
     IsInvariantToOrder = true,
     MaxByteSize = -1)]
 public struct Median : IBinarySerialize 
