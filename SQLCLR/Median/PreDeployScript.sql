@@ -1,11 +1,11 @@
-﻿ALTER DATABASE AdventureWorks2012 SET TRUSTWORTHY ON;
+﻿--ALTER DATABASE AdventureWorks2012 SET TRUSTWORTHY ON;
 
-sp_configure 'clr enabled',1
-go
-RECONFIGURE
-go
-sp_configure 'clr enabled'
-go
+--sp_configure 'clr enabled',1
+--go
+--RECONFIGURE
+--go
+--sp_configure 'clr enabled'
+--go
 
 IF EXISTS (SELECT name FROM sysobjects WHERE name = 'Median')
    DROP AGGREGATE Median

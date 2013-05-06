@@ -16,7 +16,7 @@ using System.Collections.Generic;
 [Serializable]
 [Microsoft.SqlServer.Server.SqlUserDefinedAggregate(
     Format.UserDefined,
-    IsInvariantToDuplicates = false,
+    IsInvariantToDuplicates = true,
     IsInvariantToNulls = true,
     IsInvariantToOrder = true,
     MaxByteSize = -1)]
