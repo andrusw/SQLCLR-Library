@@ -5,11 +5,11 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
     <VisualStudioVersion Condition="'$(SSDTExists)' == ''">10.0</VisualStudioVersion>
-    <PostConversionRemoveFromScc>
-    </PostConversionRemoveFromScc>
+    <PostConversionRemoveFromScc>;C:\Users\wandrus.OVERSITETECH\Documents\GitHub\SQLCLR-Library\SQLCLR\UserNameAudit\UserNameAudit.csproj</PostConversionRemoveFromScc>
     <PostConversionAddToScc>
     </PostConversionAddToScc>
     <TargetDatabaseSet>True</TargetDatabaseSet>
+    <Trustworthy>True</Trustworthy>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -19,23 +19,12 @@
     <SchemaVersion>2.0</SchemaVersion>
     <OutputType>Database</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <AssemblyName>BarCodeParser</AssemblyName>
+    <AssemblyName>UserNameAudit</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <SccProjectName>
-    </SccProjectName>
-    <SccLocalPath>
-    </SccLocalPath>
-    <SccAuxPath>
-    </SccAuxPath>
-    <SccProvider>
-    </SccProvider>
-    <ConnectionString>
-    </ConnectionString>
-    <PermissionSet>SAFE</PermissionSet>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
-    <Name>BarCodeParser</Name>
+    <Name>UserNameAudit</Name>
     <ProjectVersion>4.0</ProjectVersion>
-    <ProjectGuid>{3c347fee-ff8c-41bb-addf-7b9504ac5061}</ProjectGuid>
+    <ProjectGuid>{52734a74-e73b-498f-951e-36c801b82b0d}</ProjectGuid>
     <IncludeSchemaNameInFileName>False</IncludeSchemaNameInFileName>
     <GenerateDatabaseFile>False</GenerateDatabaseFile>
     <GenerateCreateScript>False</GenerateCreateScript>
@@ -72,17 +61,20 @@
     <DefineTrace>true</DefineTrace>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>BarCodeParser</RootNamespace>
+    <RootNamespace>UserNameAudit</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.XML" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BarCodeParsercs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserNameAudit.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Test Scripts\Test.sql">

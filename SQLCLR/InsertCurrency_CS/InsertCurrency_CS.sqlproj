@@ -19,23 +19,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <OutputType>Database</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <AssemblyName>BarCodeParser</AssemblyName>
+    <AssemblyName>InsertCurrency_CS</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <SccProjectName>
-    </SccProjectName>
-    <SccLocalPath>
-    </SccLocalPath>
-    <SccAuxPath>
-    </SccAuxPath>
-    <SccProvider>
-    </SccProvider>
     <ConnectionString>
     </ConnectionString>
-    <PermissionSet>SAFE</PermissionSet>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
-    <Name>BarCodeParser</Name>
+    <Name>InsertCurrency_CS</Name>
     <ProjectVersion>4.0</ProjectVersion>
-    <ProjectGuid>{3c347fee-ff8c-41bb-addf-7b9504ac5061}</ProjectGuid>
+    <ProjectGuid>{b1d1f06a-4e95-4c27-b72e-de8529c48e13}</ProjectGuid>
     <IncludeSchemaNameInFileName>False</IncludeSchemaNameInFileName>
     <GenerateDatabaseFile>False</GenerateDatabaseFile>
     <GenerateCreateScript>False</GenerateCreateScript>
@@ -72,7 +63,7 @@
     <DefineTrace>true</DefineTrace>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>BarCodeParser</RootNamespace>
+    <RootNamespace>InsertCurrency_CS</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
@@ -81,7 +72,7 @@
     <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BarCodeParsercs.cs" />
+    <Compile Include="InsertCurrency_CS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
