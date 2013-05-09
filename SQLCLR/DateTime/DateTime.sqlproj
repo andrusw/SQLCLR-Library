@@ -19,12 +19,12 @@
     <SchemaVersion>2.0</SchemaVersion>
     <OutputType>Database</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <AssemblyName>SalesAudit</AssemblyName>
+    <AssemblyName>DateTime</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
-    <Name>SalesAudit</Name>
+    <Name>DateTime</Name>
     <ProjectVersion>4.0</ProjectVersion>
-    <ProjectGuid>{0193bc35-9992-4995-9072-5d6abd7e228c}</ProjectGuid>
+    <ProjectGuid>{aa1acd28-2961-4a3f-bdb7-4d4de6bde3d9}</ProjectGuid>
     <IncludeSchemaNameInFileName>False</IncludeSchemaNameInFileName>
     <GenerateDatabaseFile>False</GenerateDatabaseFile>
     <GenerateCreateScript>False</GenerateCreateScript>
@@ -61,7 +61,7 @@
     <DefineTrace>true</DefineTrace>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>SalesAudit</RootNamespace>
+    <RootNamespace>DateTime</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
@@ -71,10 +71,27 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SalesAudit.cs" />
+    <Compile Include="DayOfWeek.cs" />
+    <Compile Include="DaysInMonth.cs" />
+    <Compile Include="FromFileTime.cs" />
+    <Compile Include="ToFileTime.cs" />
+    <Compile Include="ToFileTimeUTC.cs" />
+    <Compile Include="FromFileTimeUTC.cs" />
+    <Compile Include="FromOADate.cs" />
+    <Compile Include="IsLeapYear.cs" />
+    <Compile Include="ToBinary.cs" />
+    <Compile Include="ToLocalTime.cs" />
+    <Compile Include="ToOADate.cs" />
+    <Compile Include="ToUniversalTime.cs" />
+    <Compile Include="Ticks.cs" />
+    <Compile Include="IsDayLightSavings.cs" />
+    <Compile Include="DayOfYear.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Test Scripts\Test.sql">
