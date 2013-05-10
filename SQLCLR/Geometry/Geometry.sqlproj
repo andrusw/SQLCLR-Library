@@ -5,8 +5,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
     <VisualStudioVersion Condition="'$(SSDTExists)' == ''">10.0</VisualStudioVersion>
-    <PostConversionRemoveFromScc>
-    </PostConversionRemoveFromScc>
+    <PostConversionRemoveFromScc>;C:\Users\wandrus.OVERSITETECH\Documents\GitHub\SQLCLR-Library\SQLCLR\Geometry\Geometry.csproj</PostConversionRemoveFromScc>
     <PostConversionAddToScc>
     </PostConversionAddToScc>
     <TargetDatabaseSet>True</TargetDatabaseSet>
@@ -19,12 +18,12 @@
     <SchemaVersion>2.0</SchemaVersion>
     <OutputType>Database</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <AssemblyName>Point</AssemblyName>
+    <AssemblyName>Geometry</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
-    <Name>Point</Name>
+    <Name>Geometry</Name>
     <ProjectVersion>4.0</ProjectVersion>
-    <ProjectGuid>{8bbe5c74-92f0-46b6-8d2c-3e869b78af69}</ProjectGuid>
+    <ProjectGuid>{97a9f610-cbbe-4c2f-a0ea-21f3f79d656b}</ProjectGuid>
     <IncludeSchemaNameInFileName>False</IncludeSchemaNameInFileName>
     <GenerateDatabaseFile>False</GenerateDatabaseFile>
     <GenerateCreateScript>False</GenerateCreateScript>
@@ -61,7 +60,7 @@
     <DefineTrace>true</DefineTrace>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>Point</RootNamespace>
+    <RootNamespace>Geometry</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
@@ -71,9 +70,27 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Point">
+      <HintPath>..\Point\bin\Debug\Point.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DistanceBetweenTwoPoints.cs" />
+    <Compile Include="MidPoint3D.cs" />
+    <Compile Include="Ratio.cs" />
+    <Compile Include="MidPoint.cs" />
+    <Compile Include="PerpendicularBisector.cs" />
+    <Compile Include="Slope.cs" />
+    <Compile Include="CentroidOfTriangle.cs" />
+    <Compile Include="PointSlope.cs" />
+    <Compile Include="SlopeIntercept.cs" />
+    <Compile Include="TwoPointSlope.cs" />
+    <Compile Include="TwoIntercept.cs" />
+    <Compile Include="TetrahedronVolume.cs" />
+    <Compile Include="PerpendicularLength.cs" />
+    <Compile Include="DistanceBetweenTwoPoints3D.cs" />
+    <Compile Include="Ratio3D.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Point3D.cs" />
   </ItemGroup>
