@@ -61,10 +61,11 @@ SET @p = '1:2:3'
 select CAST(dbo.Ratio3DExternally(@p,@p,1,2) as varchar)
 
 
---Ratio3D Internally (1,3,5)(2,4,6) ratio 2:3  Ans:(-1,1,3)
+--Ratio3D Internally (1,3,5)(2,4,6) ratio 2:3  
 SET @p = '1:3:5'
 SET @q = '2:4:6'
 
 select CAST(dbo.Ratio3DInternally(@p,@q,2,3) as varchar)
+
 
 
