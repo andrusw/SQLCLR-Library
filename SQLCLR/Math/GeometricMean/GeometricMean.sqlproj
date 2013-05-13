@@ -5,7 +5,8 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
     <VisualStudioVersion Condition="'$(SSDTExists)' == ''">10.0</VisualStudioVersion>
-    <PostConversionRemoveFromScc>;C:\Users\wandrus.OVERSITETECH\Documents\GitHub\SQLCLR-Library\SQLCLR\WeatherCalculations\WeatherCalculations.csproj</PostConversionRemoveFromScc>
+    <PostConversionRemoveFromScc>
+    </PostConversionRemoveFromScc>
     <PostConversionAddToScc>
     </PostConversionAddToScc>
     <TargetDatabaseSet>True</TargetDatabaseSet>
@@ -18,12 +19,12 @@
     <SchemaVersion>2.0</SchemaVersion>
     <OutputType>Database</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <AssemblyName>WeatherCalculations</AssemblyName>
+    <AssemblyName>GeometricMean</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
-    <Name>WeatherCalculations</Name>
+    <Name>GeometricMean</Name>
     <ProjectVersion>4.0</ProjectVersion>
-    <ProjectGuid>{1ed00fa9-4572-472e-a042-28ce61869336}</ProjectGuid>
+    <ProjectGuid>{e438b04c-354e-4784-a7c1-7ae8222362a8}</ProjectGuid>
     <IncludeSchemaNameInFileName>False</IncludeSchemaNameInFileName>
     <GenerateDatabaseFile>False</GenerateDatabaseFile>
     <GenerateCreateScript>False</GenerateCreateScript>
@@ -60,7 +61,7 @@
     <DefineTrace>true</DefineTrace>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>WeatherCalculations</RootNamespace>
+    <RootNamespace>GeometricMean</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
@@ -73,14 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WindPower.cs" />
-    <Compile Include="Dewpoint-Humidity.cs" />
-    <Compile Include="Cyclone.cs" />
-    <Compile Include="CloudBase.cs" />
-    <Compile Include="RainHarvast.cs" />
-    <Compile Include="MixingRatio.cs" />
-    <Compile Include="VirtualDryAirTemp.cs" />
-    <Compile Include="TempConvert.cs" />
+    <Compile Include="GeometricMean.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Test Scripts\Test.sql">

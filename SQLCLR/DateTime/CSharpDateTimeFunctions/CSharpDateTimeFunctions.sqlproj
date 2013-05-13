@@ -22,7 +22,7 @@
     <AssemblyName>DateTime</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
-    <Name>DateTime</Name>
+    <Name>CSharpDateTimeFunctions</Name>
     <ProjectVersion>4.0</ProjectVersion>
     <ProjectGuid>{aa1acd28-2961-4a3f-bdb7-4d4de6bde3d9}</ProjectGuid>
     <IncludeSchemaNameInFileName>False</IncludeSchemaNameInFileName>
