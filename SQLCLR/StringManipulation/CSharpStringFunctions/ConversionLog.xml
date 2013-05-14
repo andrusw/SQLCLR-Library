@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_ConversionReport_Files/ConversionReport.xslt'?>
+<UpgradeLog>
+  <Properties>
+    <Property Name="Project" Value="CSharpStringFunctions" />
+    <Property Name="Project File" Value="C:\Users\wandrus.OVERSITETECH\Documents\GitHub\SQLCLR-Library\SQLCLR\CSharpStringFunctions\CSharpStringFunctions.csproj" />
+    <Property Name="Date" Value="Monday, May 13, 2013" />
+    <Property Name="Time" Value="1:28 PM" />
+  </Properties>
+  <Event ErrorLevel="0" Project="C:\Users\wandrus.OVERSITETECH\Documents\GitHub\SQLCLR-Library\SQLCLR\CSharpStringFunctions\CSharpStringFunctions.csproj" Source="..\CSharpStringFunctions.csproj" Description="Project was successfully converted: 'C:\Users\wandrus.OVERSITETECH\Documents\GitHub\SQLCLR-Library\SQLCLR\CSharpStringFunctions\CSharpStringFunctions.csproj' to 'C:\Users\wandrus.OVERSITETECH\Documents\GitHub\SQLCLR-Library\SQLCLR\CSharpStringFunctions\CSharpStringFunctions.sqlproj'" />
+  <Event ErrorLevel="3" Project="C:\Users\wandrus.OVERSITETECH\Documents\GitHub\SQLCLR-Library\SQLCLR\CSharpStringFunctions\CSharpStringFunctions.csproj" Source="..\CSharpStringFunctions.csproj" Description="Converted" />
+</UpgradeLog>
