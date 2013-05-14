@@ -85,6 +85,13 @@
     <Compile Include="SmallestNumberDivisibleByRange.cs" />
     <Compile Include="SumSquareRange.cs" />
     <Compile Include="nthPrime.cs" />
+    <Compile Include="GreatestProductOfNDigits.cs" />
+    <Compile Include="PythagoreanTripletProduct.cs" />
+    <Compile Include="SumOfAllPrimesBelowN.cs" />
+    <Compile Include="TriangularNumber.cs" />
+    <Compile Include="SumSeriesOfLargeNumbers.cs" />
+    <Compile Include="Collatz.cs" />
+    <Compile Include="Lattice.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Test Scripts\Test.sql">
